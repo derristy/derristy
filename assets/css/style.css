@@ -34,6 +34,8 @@ body {
 }
 
 .first-screen__content {
+    width: 100%;
+    max-width: 400px;
     background: transparent;
     padding: 30px;
     border-radius: 50px;
@@ -83,14 +85,16 @@ body {
 
 .social {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 250px;
 }
 
 .social-item {
-    margin-right: 10px;
-}
-
-.social-item:last-child {
-    margin-right: 0;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .fill {
