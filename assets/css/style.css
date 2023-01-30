@@ -24,9 +24,11 @@ body {
 
 .first-screen {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    min-height: 500px;
     background: linear-gradient(to bottom, #1E88E5, #9198e5);
+    overflow: auto;
 }
 
 .first-screen__content {
